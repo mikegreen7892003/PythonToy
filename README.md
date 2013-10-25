@@ -1,9 +1,10 @@
 PythonToy
 =========
 
-#Tips:#
+###Tips:###
 
-##Running TestCase:##
+Running TestCase:
+_________________
 
 ```shell
 python runtests.py |& pyrg
