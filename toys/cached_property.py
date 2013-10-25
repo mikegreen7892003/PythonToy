@@ -1,14 +1,14 @@
 #coding=utf-8
 """
-实现带缓存功能的property，用法和系统自带的property一样
-参考
+rewrite property, make the property can be cached
+Reference:
 http://docs.python.org/2/howto/descriptor.html#properties
 """
 _missing = object()
 
 
 class cached_property(property):
-    """重写property，使其带缓存功能"""
+    """rewrite property, make the property can be cached"""
     def __get__(self, obj, objtype=None):
         if obj is None:
             return self

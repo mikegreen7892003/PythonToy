@@ -1,5 +1,4 @@
-PythonToy collects Freedom useless Python code
-==============================================
+##PythonToy collects Freedom useless Python code##
 
 ###Tips:###
 

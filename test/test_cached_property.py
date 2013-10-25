@@ -1,13 +1,13 @@
 #coding=utf-8
 """
-测试cached_property
+Test cached_property
 """
 import unittest
 from toys.cached_property import cached_property
 
 
 class TestCachedProperty(unittest.TestCase):
-    """测试cached_property类"""
+    """A testcase for cached_property"""
     def setUp(self):
 
         class Foo(object):
