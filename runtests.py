@@ -1,7 +1,10 @@
 #coding=utf-8
 import unittest
-from test.test_cached_property import TestCachedProperty
+import test
 
 
 if __name__ == "__main__":
-    unittest.main()
+    suite = unittest.TestSuite()
+    for case in unittest.TestLoader().discover("test"):
+        suite.addTests(case)
+    unittest.TextTestRunner(verbosity=2).run(suite)
