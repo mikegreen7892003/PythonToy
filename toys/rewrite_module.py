@@ -31,11 +31,6 @@ class Environment(object):
         if k.startswith("__") and k.endswith("__"):
             raise AttributeError
 
-        try:
-            return os.environ[k]
-        except KeyError:
-            pass
-
         return k
 
 
