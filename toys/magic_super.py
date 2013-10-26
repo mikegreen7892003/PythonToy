@@ -14,6 +14,7 @@ http://www.python.org/dev/peps/pep-3135/
 ...         import sys
 ...         if sys.version_info > (3, ):
 ...             super().x()
+...             __class__
 ...             super_().x()
 >>> B().x()
 """
