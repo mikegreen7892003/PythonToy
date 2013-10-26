@@ -27,7 +27,7 @@ def exec_class(classname):
     class_definition = _class_template.format(classname=classname)
     namespace = {"sys": sys}
     try:
-        exec class_definition in namespace
+        exec(class_definition, namespace)
     except SyntaxError as e:
         raise SyntaxError(e.message + ":\n" + class_definition)
     result = namespace[classname]
