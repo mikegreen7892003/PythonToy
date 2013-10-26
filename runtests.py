@@ -3,6 +3,7 @@ import unittest
 import test
 doctests = [
     'toys.rewrite_module.doctests',
+    'toys.exec_example.doctests',
 ]
 
 

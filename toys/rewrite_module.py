@@ -3,6 +3,7 @@
 Howto rewrite the module itself
 Reference:
 https://github.com/amoffat/sh/blob/master/sh.py
+Usage:
 >>> from toys.rewrite_module import hello
 >>> hello
 'hello'
