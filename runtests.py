@@ -4,6 +4,7 @@ import test
 doctests = [
     'toys.rewrite_module.doctests',
     'toys.exec_example.doctests',
+    'toys.get_function_defaults.doctests',
 ]
 
 
