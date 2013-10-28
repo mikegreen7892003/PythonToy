@@ -6,6 +6,7 @@ doctests = [
     'toys.exec_example.doctests',
     'toys.get_function_defaults.doctests',
     'toys.magic_super.doctests',
+    'toys.magic_class.doctests',
 ]
 
 
